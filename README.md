@@ -1,46 +1,47 @@
-# Developer Roadmap Plugin for Claude Code
+# DSA Mastery Plugin for Claude Code
 
-🚀 **Comprehensive Learning Plugin** based on the official [roadmap.sh](https://roadmap.sh) with 7 specialized agents, 8+ skills, and hands-on projects.
+🚀 **Ultimate Data Structures & Algorithms Plugin** - Master DSA with 7 specialized agents, 8+ skills, 300+ problems, and complete interview preparation.
 
 Built for Claude Code with production-ready plugin format.
 
 ## 🎯 Overview
 
-This plugin provides a complete learning system for developers across multiple specializations:
+This plugin provides a complete learning system for mastering data structures and algorithms:
 
-- **7 Specialized Agents**: Backend, Frontend, DevOps, Data Science, System Architecture, Mobile, Cloud
-- **8+ Invokable Skills**: Code snippets and practical guides for each domain
-- **4 Slash Commands**: /learn, /browse-agent, /assess, /projects
-- **100+ Projects**: Hands-on exercises from beginner to advanced
-- **1000+ Hours of Content**: Based on roadmap.sh
+- **7 Specialized Agents**: Arrays, Trees, Graphs, DP, Sorting, Hash Tables, Greedy & Advanced
+- **8+ Invokable Skills**: Code implementations with time/space complexity analysis
+- **4 Interactive Commands**: Problem solver, difficulty selector, interview prep, complexity analyzer
+- **300+ Problems**: From LeetCode Easy to Hard with solutions
+- **Complete Interview Guide**: Top 20 questions, strategies, and best practices
 
 ## 📦 Plugin Structure
 
 ```
-developer-roadmap-plugin/
+dsa-mastery-plugin/
 ├── .claude-plugin/
 │   └── plugin.json                    # Plugin manifest
-├── agents/                            # 7 Agent definitions
-│   ├── 01-backend-developer.md
-│   ├── 02-frontend-developer.md
-│   ├── 03-devops-engineer.md
-│   ├── 04-data-scientist-ai.md
-│   ├── 05-system-architect.md
-│   ├── 06-mobile-developer.md
-│   └── 07-cloud-engineer.md
-├── commands/                          # 4 Slash commands
-│   ├── learn.md
-│   ├── browse-agent.md
-│   ├── assess.md
-│   └── projects.md
-├── skills/                            # 8+ Skills
-│   ├── backend/SKILL.md
-│   ├── frontend/SKILL.md
-│   ├── devops/SKILL.md
-│   ├── data-ai/SKILL.md
-│   ├── architecture/SKILL.md
-│   ├── mobile/SKILL.md
-│   └── cloud/SKILL.md
+├── agents/                            # 7 DSA Agent definitions
+│   ├── 01-arrays-lists.md
+│   ├── 02-trees-binary.md
+│   ├── 03-graphs.md
+│   ├── 04-dynamic-programming.md
+│   ├── 05-sorting-searching.md
+│   ├── 06-hash-tables.md
+│   └── 07-greedy-advanced.md
+├── commands/                          # 4 Interactive Commands
+│   ├── problem-solver.md
+│   ├── difficulty-selector.md
+│   ├── interview-prep.md
+│   └── complexity-analyzer.md
+├── skills/                            # 8 Code Implementation Skills
+│   ├── arrays/SKILL.md
+│   ├── trees/SKILL.md
+│   ├── graphs/SKILL.md
+│   ├── dp/SKILL.md
+│   ├── sorting/SKILL.md
+│   ├── hashing/SKILL.md
+│   ├── backtracking/SKILL.md
+│   └── bitmanip/SKILL.md
 ├── hooks/
 │   └── hooks.json
 └── README.md
@@ -62,162 +63,185 @@ git clone https://github.com/pluginagentmarketplace/custom-plugin-data-structure
 # ~/.claude-code/plugins/custom-plugin-data-structures-algorithms
 ```
 
-### First Steps
+### First Commands
 
 ```bash
-# Start learning
-/learn
+# Find problems to solve
+/problem-solver
 
-# Explore agents
-/browse-agent
+# Choose your skill level
+/difficulty-selector
 
-# Test yourself
-/assess
+# Prepare for interviews
+/interview-prep
 
-# Find projects
-/projects
+# Understand complexity
+/complexity-analyzer
 ```
 
-## 👥 7 Specialized Agents
+## 👥 7 Specialized DSA Agents
 
-### 1. 🔧 Backend Developer
-- API Design (REST, GraphQL)
-- Database Management
-- Authentication & Security
-- Microservices Architecture
-- **Skills**: Backend Fundamentals, Database Design
-- **Roadmap**: https://roadmap.sh/backend
+### 1. 📚 Arrays & Lists Agent
+- Array operations and manipulation
+- Sliding window technique
+- Two pointers approach
+- Prefix sum patterns
+- **Skills**: Array techniques with code examples
+- **Problems**: 50+ problems from Easy to Hard
 
-### 2. 🎨 Frontend Developer
-- React, Vue, Angular Development
-- Component Architecture
-- State Management
-- Responsive Design
-- **Skills**: Frontend Fundamentals
-- **Roadmap**: https://roadmap.sh/frontend
+### 2. 🌳 Trees & Binary Trees Agent
+- Tree traversals (DFS, BFS, Inorder, Preorder)
+- Binary Search Trees
+- Balanced trees and AVL trees
+- Tree dynamic programming
+- **Skills**: Complete tree traversal implementations
+- **Problems**: 40+ tree problems with solutions
 
-### 3. ⚙️ DevOps Engineer
-- Docker & Kubernetes
-- CI/CD Pipelines
-- Infrastructure as Code
-- Monitoring & Logging
-- **Skills**: DevOps Fundamentals
-- **Roadmap**: https://roadmap.sh/devops
+### 3. 🕸️ Graphs & Graph Algorithms Agent
+- Graph representations
+- DFS and BFS traversal
+- Shortest path algorithms (Dijkstra)
+- Topological sorting
+- Union-Find data structure
+- **Skills**: Graph algorithm implementations
+- **Problems**: 35+ graph problems
 
-### 4. 📊 Data Scientist & AI Engineer
-- Machine Learning
-- Deep Learning
-- Data Analysis
-- Feature Engineering
-- **Skills**: Data Science Fundamentals
-- **Roadmap**: https://roadmap.sh/ai-engineer
+### 4. ⚡ Dynamic Programming Agent
+- Memoization and tabulation
+- State design and optimization
+- Sequence DP patterns
+- Knapsack problems and variants
+- **Skills**: DP implementations with complexity
+- **Problems**: 45+ DP problems from basics to hard
 
-### 5. 🏛️ System Architect
-- System Design Patterns
-- Scalability Architecture
-- Distributed Systems
-- Database Architecture
-- **Skills**: System Architecture
-- **Roadmap**: https://roadmap.sh/system-design
+### 5. 🔍 Searching & Sorting Agent
+- Sorting algorithms (Quick, Merge, Heap)
+- Binary search and variations
+- Linear-time sorting (Counting, Radix)
+- Custom sorting with comparators
+- **Skills**: Complete sorting algorithm codes
+- **Problems**: 30+ sorting and searching problems
 
-### 6. 📱 Mobile Developer
-- iOS Development (Swift)
-- Android Development (Kotlin)
-- Cross-Platform (React Native, Flutter)
-- App Architecture
-- **Skills**: Mobile Development
-- **Roadmap**: https://roadmap.sh/ios / https://roadmap.sh/android
+### 6. #️⃣ Hash Tables & Sets Agent
+- Hash maps and hash sets
+- Frequency counting patterns
+- LRU Cache implementation
+- Collision handling strategies
+- **Skills**: Hashing techniques with real implementations
+- **Problems**: 35+ hashing problems
 
-### 7. ☁️ Cloud Engineer
-- AWS Services & Architecture
-- Cloud Security
-- Infrastructure Management
-- Cost Optimization
-- **Skills**: Cloud Platform (AWS)
-- **Roadmap**: https://roadmap.sh/aws
+### 7. 🎯 Greedy & Advanced Algorithms Agent
+- Greedy algorithm strategy
+- Backtracking patterns
+- Bit manipulation tricks
+- Mathematical algorithms
+- **Skills**: Complete implementations for advanced techniques
+- **Problems**: 40+ advanced problems
 
 ## 💡 Features
 
-✅ **7 Expert Agents** - Specialized in different domains
-✅ **8+ Invokable Skills** - Ready-to-use code snippets
-✅ **4 Slash Commands** - Easy navigation and learning
-✅ **100+ Projects** - From beginner to advanced
-✅ **Official Roadmaps** - Links to roadmap.sh
-✅ **Progressive Learning** - Structured paths from basics to mastery
-✅ **Self-Assessment** - Track your knowledge level
+✅ **7 Expert Agents** - One for each DSA domain
+✅ **8+ Invokable Skills** - Ready-to-use code implementations
+✅ **4 Interactive Commands** - Solver, difficulty, interview, complexity
+✅ **300+ Problems** - Easy, Medium, Hard levels
+✅ **Complete Solutions** - Code examples in Python/JavaScript/Java/C++
+✅ **Complexity Analysis** - Time and space breakdown for every solution
+✅ **Interview Prep** - Top 20 questions with strategies
+✅ **Progressive Learning** - Beginner → Intermediate → Advanced
 ✅ **Production-Ready** - Official Claude Code plugin format
 
 ## 📚 Learning Paths
 
-### Beginner (0-3 months)
-- Programming fundamentals
-- Version control
-- Basic web/app development
-- Database basics
+### Beginner (0-2 weeks)
+- Array fundamentals and two pointers
+- Basic string manipulation
+- Hash maps and sets
+- Linked lists basics
 
-### Intermediate (3-6 months)
-- Framework mastery
-- API development
-- Testing strategies
-- Deployment basics
+### Intermediate (2-8 weeks)
+- Trees and graph traversals
+- Basic dynamic programming
+- Sorting and searching
+- Hash-based problems
 
-### Advanced (6-12 months)
-- System design
-- Performance optimization
-- Architecture patterns
-- Production deployment
+### Advanced (8+ weeks)
+- Hard DP problems
+- Graph algorithms (Dijkstra, topological sort)
+- Greedy strategies
+- Bit manipulation tricks
+- Interview-style problems
 
 ## 🛠️ Built-In Skills
 
-### Backend Development
-- **backend-fundamentals**: API design, authentication, caching
-- **database-design**: Schema design, normalization, optimization
+### Array & Linked List
+- **array-techniques**: Two pointers, sliding window, prefix sums
 
-### Frontend Development
-- **frontend-fundamentals**: React, hooks, state management
+### Tree Algorithms
+- **tree-traversal**: DFS, BFS, inorder, preorder, postorder
 
-### DevOps
-- **devops-fundamentals**: Docker, Kubernetes, CI/CD
+### Graph Algorithms
+- **graph-algorithms**: DFS, BFS, Dijkstra, Union-Find, topological sort
 
-### Data Science
-- **data-science-fundamentals**: ML, deep learning, feature engineering
+### Dynamic Programming
+- **dynamic-programming**: Memoization, tabulation, state design, DP templates
 
-### System Architecture
-- **system-architecture**: Design patterns, scalability, caching
+### Sorting & Searching
+- **sorting-algorithms**: Merge sort, quick sort, binary search, complexity
 
-### Mobile Development
-- **mobile-development**: iOS, Android, cross-platform
+### Hash-Based Techniques
+- **hashing-techniques**: Frequency counting, LRU cache, duplicate detection
 
-### Cloud Engineering
-- **cloud-platform-aws**: AWS services, infrastructure, security
+### Backtracking
+- **backtracking-patterns**: Permutations, combinations, N-Queens, subsets
+
+### Bit Manipulation
+- **bit-manipulation**: Bit operations, XOR tricks, single number problems
 
 ## 📋 Commands Reference
 
-### `/learn`
-Start a learning journey with role and level selection
+### `/problem-solver`
+Browse 300+ DSA problems organized by:
+- Topic (arrays, trees, graphs, DP, sorting, hash, greedy)
+- Difficulty (Easy, Medium, Hard)
+- Complete with solutions and explanations
 
-### `/browse-agent`
-Explore all 7 agents and their capabilities
+### `/difficulty-selector`
+Choose your learning path based on:
+- Current skill level (Beginner, Intermediate, Advanced)
+- Time available (weeks to months)
+- Learning goals
+- Daily practice schedule
 
-### `/assess`
-Self-assess your knowledge across tech areas
+### `/interview-prep`
+Master coding interviews with:
+- Top 20 most frequently asked problems
+- Interview day strategies
+- Communication tips
+- Preparation schedule
+- Mock interview practice
 
-### `/projects`
-Find hands-on practice projects
+### `/complexity-analyzer`
+Understand time and space complexity:
+- Big O notation guide
+- Complexity comparisons for data structures
+- Sorting algorithm complexity
+- How to calculate and optimize
 
 ## 🔗 Related Resources
 
-- **Official Roadmaps**: https://roadmap.sh
-- **GitHub**: https://github.com/kamranahmedse/developer-roadmap
+- **LeetCode**: https://leetcode.com
+- **HackerRank**: https://www.hackerrank.com
+- **GitHub**: https://github.com/pluginagentmarketplace/custom-plugin-data-structures-algorithms
 - **License**: MIT
 
 ## 🤝 Contributing
 
 Contributions welcome! Areas to enhance:
-- Additional projects
-- More skill tutorials
-- Code examples
-- Interview preparation
+- More problem solutions
+- Additional algorithm explanations
+- Video walkthroughs
+- Visualization tools
+- More language implementations
 
 ## 📄 License
 
@@ -225,10 +249,19 @@ MIT License - See LICENSE file for details
 
 ## 🙌 Credits
 
-Based on the amazing [roadmap.sh](https://roadmap.sh) project by Kamran Ahmed.
+Comprehensive DSA learning plugin built for Claude Code with best practices from:
+- LeetCode community
+- GeeksforGeeks
+- Cracking the Coding Interview
+- System Design Interview resources
 
 ---
 
-**Start Learning Today!** 🚀
+**Ready to Master DSA?** 🚀
 
-Use `/learn` to begin your developer journey!
+1. Use `/difficulty-selector` to pick your level
+2. Use `/problem-solver` to find problems
+3. Use `/complexity-analyzer` to understand optimization
+4. Use `/interview-prep` to ace your interviews!
+
+**Practice daily. Master DSA. Get hired.** 💪

@@ -1,128 +1,129 @@
 {
-  "name": "developer-roadmap-plugin",
+  "name": "dsa-mastery-plugin",
   "version": "1.0.0",
-  "displayName": "Developer Roadmap",
-  "description": "Comprehensive learning plugin with 7 specialized agents covering Backend, Frontend, DevOps, Data Science, System Architecture, Mobile, and Cloud development from the official roadmap.sh",
-  "author": "Developer Roadmap Contributors",
+  "displayName": "DSA Mastery",
+  "description": "Ultimate Data Structures & Algorithms learning plugin with 7 expert agents, 8+ skills, 300+ problems, and interview preparation guide.",
+  "author": "DSA Community",
   "license": "MIT",
-  "repository": "https://github.com/kamranahmedse/developer-roadmap",
   "keywords": [
-    "roadmap",
-    "learning",
-    "development",
-    "career-path",
-    "skill-building"
+    "data-structures",
+    "algorithms",
+    "dsa",
+    "interview-preparation",
+    "coding-interview",
+    "leetcode",
+    "problem-solving"
   ],
   "agents": [
     {
-      "id": "01-backend-developer",
-      "name": "Backend Developer",
-      "description": "Expert backend specialist for APIs, databases, and server architecture",
-      "path": "agents/01-backend-developer.md"
+      "id": "01-arrays-lists",
+      "name": "Arrays & Lists",
+      "description": "Master array and list data structures with sliding window, two pointers, and prefix sum techniques",
+      "path": "agents/01-arrays-lists.md"
     },
     {
-      "id": "02-frontend-developer",
-      "name": "Frontend Developer",
-      "description": "Expert frontend specialist for web UI and React/Vue development",
-      "path": "agents/02-frontend-developer.md"
+      "id": "02-trees-binary",
+      "name": "Trees & Binary Trees",
+      "description": "Expert in tree traversals, BSTs, balanced trees, and tree dynamic programming",
+      "path": "agents/02-trees-binary.md"
     },
     {
-      "id": "03-devops-engineer",
-      "name": "DevOps Engineer",
-      "description": "Expert DevOps specialist for infrastructure and CI/CD pipelines",
-      "path": "agents/03-devops-engineer.md"
+      "id": "03-graphs",
+      "name": "Graphs & Graph Algorithms",
+      "description": "Master graph representations, DFS/BFS, shortest paths, topological sort, and Union-Find",
+      "path": "agents/03-graphs.md"
     },
     {
-      "id": "04-data-scientist-ai",
-      "name": "Data Scientist & AI Engineer",
-      "description": "Expert data science specialist for ML models and AI solutions",
-      "path": "agents/04-data-scientist-ai.md"
+      "id": "04-dynamic-programming",
+      "name": "Dynamic Programming",
+      "description": "Expert in optimization through memoization, tabulation, and DP state design",
+      "path": "agents/04-dynamic-programming.md"
     },
     {
-      "id": "05-system-architect",
-      "name": "System Architect",
-      "description": "Expert architect for large-scale system design and optimization",
-      "path": "agents/05-system-architect.md"
+      "id": "05-sorting-searching",
+      "name": "Searching & Sorting",
+      "description": "Master sorting algorithms, binary search, and comparison-based optimizations",
+      "path": "agents/05-sorting-searching.md"
     },
     {
-      "id": "06-mobile-developer",
-      "name": "Mobile Developer",
-      "description": "Expert mobile specialist for iOS, Android, and cross-platform development",
-      "path": "agents/06-mobile-developer.md"
+      "id": "06-hash-tables",
+      "name": "Hash Tables & Sets",
+      "description": "Expert in hash-based data structures, frequency counting, LRU cache, and duplicate detection",
+      "path": "agents/06-hash-tables.md"
     },
     {
-      "id": "07-cloud-engineer",
-      "name": "Cloud Engineer",
-      "description": "Expert cloud specialist for AWS and cloud infrastructure",
-      "path": "agents/07-cloud-engineer.md"
+      "id": "07-greedy-advanced",
+      "name": "Greedy & Advanced Algorithms",
+      "description": "Master greedy strategies, backtracking, bit manipulation, and mathematical algorithms",
+      "path": "agents/07-greedy-advanced.md"
     }
   ],
   "commands": [
     {
-      "id": "learn",
-      "name": "learn",
-      "description": "Start your learning journey with role selection",
-      "path": "commands/learn.md"
+      "id": "problem-solver",
+      "name": "problem-solver",
+      "description": "Browse and solve 300+ DSA problems organized by topic and difficulty",
+      "path": "commands/problem-solver.md"
     },
     {
-      "id": "browse-agent",
-      "name": "browse-agent",
-      "description": "Explore all 7 specialized agents and their capabilities",
-      "path": "commands/browse-agent.md"
+      "id": "difficulty-selector",
+      "name": "difficulty-selector",
+      "description": "Choose learning path based on your skill level and experience",
+      "path": "commands/difficulty-selector.md"
     },
     {
-      "id": "assess",
-      "name": "assess",
-      "description": "Self-assess your knowledge across different tech roles",
-      "path": "commands/assess.md"
+      "id": "interview-prep",
+      "name": "interview-prep",
+      "description": "Master top 20 interview questions and coding interview strategies",
+      "path": "commands/interview-prep.md"
     },
     {
-      "id": "projects",
-      "name": "projects",
-      "description": "Find hands-on projects to practice skills",
-      "path": "commands/projects.md"
+      "id": "complexity-analyzer",
+      "name": "complexity-analyzer",
+      "description": "Understand and analyze time and space complexity with visual charts",
+      "path": "commands/complexity-analyzer.md"
     }
   ],
   "skills": [
     {
-      "id": "backend-fundamentals",
-      "name": "Backend Fundamentals",
-      "path": "skills/backend/SKILL.md"
+      "id": "array-techniques",
+      "name": "Array Techniques",
+      "path": "skills/arrays/SKILL.md"
     },
     {
-      "id": "database-design",
-      "name": "Database Design",
-      "path": "skills/backend/database-design.md"
+      "id": "tree-traversal",
+      "name": "Tree Traversal",
+      "path": "skills/trees/SKILL.md"
     },
     {
-      "id": "frontend-fundamentals",
-      "name": "Frontend Fundamentals",
-      "path": "skills/frontend/SKILL.md"
+      "id": "graph-algorithms",
+      "name": "Graph Algorithms",
+      "path": "skills/graphs/SKILL.md"
     },
     {
-      "id": "devops-fundamentals",
-      "name": "DevOps Fundamentals",
-      "path": "skills/devops/SKILL.md"
+      "id": "dynamic-programming",
+      "name": "Dynamic Programming",
+      "path": "skills/dp/SKILL.md"
     },
     {
-      "id": "data-science-fundamentals",
-      "name": "Data Science Fundamentals",
-      "path": "skills/data-ai/SKILL.md"
+      "id": "sorting-algorithms",
+      "name": "Sorting Algorithms",
+      "path": "skills/sorting/SKILL.md"
     },
     {
-      "id": "system-architecture",
-      "name": "System Architecture",
-      "path": "skills/architecture/SKILL.md"
+      "id": "hashing-techniques",
+      "name": "Hashing Techniques",
+      "path": "skills/hashing/SKILL.md"
     },
     {
-      "id": "mobile-development",
-      "name": "Mobile Development",
-      "path": "skills/mobile/SKILL.md"
+      "id": "backtracking-patterns",
+      "name": "Backtracking Patterns",
+      "path": "skills/backtracking/SKILL.md"
     },
     {
-      "id": "cloud-platform-aws",
-      "name": "Cloud Platform (AWS)",
-      "path": "skills/cloud/SKILL.md"
+      "id": "bit-manipulation",
+      "name": "Bit Manipulation",
+      "path": "skills/bitmanip/SKILL.md"
     }
   ],
   "hooks": {
