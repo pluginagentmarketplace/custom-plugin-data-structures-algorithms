@@ -1,0 +1,143 @@
+{
+  "name": "Data Structures & Algorithms Learning Plugin",
+  "id": "custom-plugin-dsa",
+  "version": "1.0.0",
+  "description": "Comprehensive Data Structures & Algorithms learning system with 7 specialized agents, interactive skills, and real-world problem-solving strategies",
+  "author": "Plugin Agent Marketplace",
+  "license": "MIT",
+  "repository": "https://github.com/pluginagentmarketplace/custom-plugin-data-structures-algorithms",
+  "keywords": [
+    "data-structures",
+    "algorithms",
+    "learning",
+    "coding-interview",
+    "system-design",
+    "complexity-analysis",
+    "sorting",
+    "searching",
+    "dynamic-programming",
+    "graphs",
+    "trees"
+  ],
+  "agents": [
+    {
+      "id": "complexity-analyst",
+      "name": "Complexity Analysis Specialist",
+      "file": "agents/01-complexity-analysis.md",
+      "description": "Master Big-O notation, space-time tradeoffs, and algorithm analysis"
+    },
+    {
+      "id": "linear-structures-expert",
+      "name": "Linear Structures Expert",
+      "file": "agents/02-linear-data-structures.md",
+      "description": "Master arrays, linked lists, stacks, queues, and their applications"
+    },
+    {
+      "id": "tree-structures-master",
+      "name": "Tree Structures Master",
+      "file": "agents/03-tree-data-structures.md",
+      "description": "Comprehensive guide to BST, AVL, heap, trie, and tree problems"
+    },
+    {
+      "id": "graph-algorithms-guide",
+      "name": "Graph Algorithms Guide",
+      "file": "agents/04-graph-algorithms.md",
+      "description": "Graph theory, traversal, shortest path, topological sort, and advanced algorithms"
+    },
+    {
+      "id": "dp-strategist",
+      "name": "Dynamic Programming Strategist",
+      "file": "agents/05-dynamic-programming.md",
+      "description": "DP problem-solving strategies, optimization techniques, and pattern recognition"
+    },
+    {
+      "id": "sort-search-optimizer",
+      "name": "Sorting & Searching Optimizer",
+      "file": "agents/06-sorting-searching.md",
+      "description": "Master all sorting algorithms, binary search variations, and selection algorithms"
+    },
+    {
+      "id": "advanced-techniques-guide",
+      "name": "Advanced Techniques & Interview Prep",
+      "file": "agents/07-advanced-techniques.md",
+      "description": "System design integration, mock interviews, LeetCode strategies, and real-world applications"
+    }
+  ],
+  "commands": [
+    {
+      "name": "learn",
+      "file": "commands/learn.md",
+      "description": "Start learning journey and select your skill level"
+    },
+    {
+      "name": "browse-agent",
+      "file": "commands/browse-agent.md",
+      "description": "Explore all 7 specialized agents and their capabilities"
+    },
+    {
+      "name": "assess",
+      "file": "commands/assess.md",
+      "description": "Take knowledge assessment test for your level"
+    },
+    {
+      "name": "interview-prep",
+      "file": "commands/interview-prep.md",
+      "description": "Prepare for coding interviews with curated problems"
+    }
+  ],
+  "skills": [
+    {
+      "id": "complexity-analysis",
+      "name": "Complexity Analysis",
+      "dir": "skills/01-complexity",
+      "description": "Big-O notation, time/space complexity, amortized analysis"
+    },
+    {
+      "id": "linear-structures",
+      "name": "Linear Data Structures",
+      "dir": "skills/02-linear-structures",
+      "description": "Arrays, Linked Lists, Stacks, Queues, and circular variants"
+    },
+    {
+      "id": "tree-structures",
+      "name": "Tree Data Structures",
+      "dir": "skills/03-tree-structures",
+      "description": "Binary Trees, BST, AVL, Heaps, Tries, Segment Trees"
+    },
+    {
+      "id": "graph-algorithms",
+      "name": "Graph Algorithms",
+      "dir": "skills/04-graph-algorithms",
+      "description": "BFS, DFS, Dijkstra, Bellman-Ford, Kruskal, Prim's, Topological Sort"
+    },
+    {
+      "id": "dynamic-programming",
+      "name": "Dynamic Programming",
+      "dir": "skills/05-dynamic-programming",
+      "description": "Memoization, tabulation, DP on trees, interval DP, digit DP"
+    },
+    {
+      "id": "sorting-searching",
+      "name": "Sorting & Searching",
+      "dir": "skills/06-sorting-searching",
+      "description": "All sorting algorithms, binary search, selection algorithms, partitioning"
+    },
+    {
+      "id": "advanced-techniques",
+      "name": "Advanced Techniques",
+      "dir": "skills/07-advanced-techniques",
+      "description": "Greedy, backtracking, two-pointers, sliding window, segment trees, union-find"
+    }
+  ],
+  "hooks": {
+    "learning-progress-tracker": "hooks/learning-progress-tracker.json",
+    "problem-validator": "hooks/problem-validator.json",
+    "interview-simulator": "hooks/interview-simulator.json"
+  },
+  "mcp_servers": [],
+  "installation": {
+    "quick_start": "Add to Claude Code: plugins add ./custom-plugin-data-structures-algorithms",
+    "dependencies": [],
+    "system_requirements": "Claude Code or compatible AI platform"
+  }
+}
