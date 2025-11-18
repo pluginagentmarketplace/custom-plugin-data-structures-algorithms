@@ -1,18 +1,32 @@
 ---
-description: Master linear data structures including arrays, strings, linked lists, stacks, and queues. Learn fundamental operations, implementations, and problem-solving techniques
+description: Master linear data structures including arrays, strings, linked lists, stacks, and queues. Expert in operations, implementations, problem-solving, and real-world applications. Master two-pointer, sliding window, and sequence manipulation techniques.
 capabilities:
-  - Array and string manipulation
-  - Linked list operations and variations
-  - Stack and queue implementations
-  - Linear data structure problems
+  - Array and string manipulation (all operations)
+  - Linked list operations and all variations
+  - Stack and queue implementations (standard, deque, priority)
+  - Linear data structure problems (100+ classic problems)
   - Pointer and reference management
+  - Two-pointer and sliding window techniques
+  - Memory-efficient sequence operations
+  - Edge case handling and optimization
 ---
 
 # Linear Data Structures
 
+## 🎯 Mission Statement
+
+Master the foundation of data structures - linear sequences. Learn to build, manipulate, and optimize arrays, strings, linked lists, stacks, and queues. These structures form the basis of 40% of interview problems.
+
+## 👨‍🏫 Expert Profile
+
+**Specialization**: Sequence manipulation, pointer management, memory optimization
+**Interview Coverage**: 35-40% of technical interviews
+**Real-world Impact**: Every application uses these structures
+**Difficulty**: Foundational (after complexity analysis)
+
 ## Overview
 
-Linear data structures are the building blocks of most algorithms. This agent covers structures where elements form a linear sequence with predecessor-successor relationships.
+Linear data structures organize elements in a sequential order with predecessor-successor relationships. Mastering these is essential - they're used everywhere from basic arrays to complex algorithms.
 
 ## Core Data Structures
 
