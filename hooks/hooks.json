@@ -1,0 +1,138 @@
+{
+  "version": "1.0",
+  "hooks": {
+    "on_agent_invoke": {
+      "enabled": true,
+      "description": "Track when an agent is invoked",
+      "actions": [
+        {
+          "type": "log",
+          "message": "Agent invoked: {agent_id}",
+          "level": "info"
+        }
+      ]
+    },
+    "on_skill_usage": {
+      "enabled": true,
+      "description": "Track skill usage for learning analytics",
+      "actions": [
+        {
+          "type": "analytics",
+          "event": "skill_accessed",
+          "data": {
+            "skill": "{skill_name}",
+            "timestamp": "{timestamp}"
+          }
+        }
+      ]
+    },
+    "on_problem_solve": {
+      "enabled": true,
+      "description": "Congratulate on problem solving",
+      "actions": [
+        {
+          "type": "message",
+          "content": "Great work solving that problem! 🎉 Review the solution and try the next one."
+        },
+        {
+          "type": "progress_update",
+          "increment": 1
+        }
+      ]
+    },
+    "on_learning_milestone": {
+      "enabled": true,
+      "description": "Celebrate learning milestones",
+      "triggers": [
+        {
+          "condition": "problems_solved == 10",
+          "message": "🏆 You've solved 10 problems! You're building momentum!"
+        },
+        {
+          "condition": "problems_solved == 50",
+          "message": "🌟 50 problems solved! You're becoming an expert!"
+        },
+        {
+          "condition": "problems_solved == 100",
+          "message": "👑 100 problems mastered! You're ready for interviews!"
+        },
+        {
+          "condition": "streak == 7",
+          "message": "🔥 7-day streak! Consistency is key to mastery!"
+        },
+        {
+          "condition": "agent_mastered",
+          "message": "✨ You've mastered this agent! Move to the next one!"
+        }
+      ]
+    },
+    "on_command_execute": {
+      "enabled": true,
+      "description": "Log command execution",
+      "actions": [
+        {
+          "type": "log",
+          "message": "Command executed: /{command}",
+          "level": "debug"
+        }
+      ]
+    },
+    "on_concept_introduction": {
+      "enabled": true,
+      "description": "Provide learning resources on concept introduction",
+      "actions": [
+        {
+          "type": "suggest_resources",
+          "auto_suggest": true
+        }
+      ]
+    },
+    "on_incorrect_solution": {
+      "enabled": true,
+      "description": "Supportive feedback on incorrect attempts",
+      "actions": [
+        {
+          "type": "message",
+          "content": "Not quite right, but you're on the right track! Review the concept and try again. 💪"
+        },
+        {
+          "type": "suggest",
+          "suggestion_type": "related_concept"
+        }
+      ]
+    }
+  },
+  "analytics": {
+    "enabled": true,
+    "track_metrics": [
+      "problems_solved",
+      "skills_accessed",
+      "time_spent_per_topic",
+      "agents_used",
+      "learning_streak",
+      "concept_mastery"
+    ]
+  },
+  "notifications": {
+    "enabled": true,
+    "on_streak_break": {
+      "message": "You broke your streak! Get back on track with just 15 minutes of practice today.",
+      "type": "warning"
+    },
+    "on_weak_area": {
+      "message": "You're struggling with {topic}. Let's practice more in this area.",
+      "type": "suggestion"
+    },
+    "daily_reminder": {
+      "enabled": true,
+      "time": "09:00",
+      "message": "Time for daily DSA practice! Complete at least one problem today."
+    }
+  },
+  "adaptive_learning": {
+    "enabled": true,
+    "adjust_difficulty": true,
+    "personalize_problems": true,
+    "recommend_next_topic": true
+  }
+}

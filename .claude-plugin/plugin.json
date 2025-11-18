@@ -1,0 +1,141 @@
+{
+  "schema_version": "1.0",
+  "name": "Data Structures & Algorithms Mastery",
+  "type": "plugin",
+  "version": "1.0.0",
+  "id": "claude-plugin-data-structures-algorithms",
+  "display_name": "Data Structures & Algorithms",
+  "description": "Comprehensive learning system for mastering Data Structures and Algorithms with 7 specialized agents, interactive lessons, and hands-on coding challenges",
+  "author": {
+    "name": "Claude Code Plugin Development",
+    "url": "https://github.com/pluginagentmarketplace"
+  },
+  "repository": {
+    "url": "https://github.com/pluginagentmarketplace/custom-plugin-data-structures-algorithms",
+    "type": "github"
+  },
+  "keywords": [
+    "data-structures",
+    "algorithms",
+    "learning",
+    "computer-science",
+    "coding-interview",
+    "optimization",
+    "big-o-notation",
+    "competitive-programming"
+  ],
+  "agents": [
+    {
+      "id": "foundations",
+      "name": "Foundations & Complexity Analysis",
+      "file": "agents/01-foundations-complexity.md",
+      "description": "Master fundamental concepts and asymptotic analysis"
+    },
+    {
+      "id": "linear-structures",
+      "name": "Linear Data Structures",
+      "file": "agents/02-linear-data-structures.md",
+      "description": "Learn arrays, strings, linked lists, stacks, and queues"
+    },
+    {
+      "id": "nonlinear-structures",
+      "name": "Non-Linear Data Structures",
+      "file": "agents/03-nonlinear-data-structures.md",
+      "description": "Explore trees, heaps, and graph fundamentals"
+    },
+    {
+      "id": "searching-sorting",
+      "name": "Searching & Sorting Algorithms",
+      "file": "agents/04-searching-sorting.md",
+      "description": "Master search and sort algorithm techniques"
+    },
+    {
+      "id": "dynamic-programming",
+      "name": "Dynamic Programming",
+      "file": "agents/05-dynamic-programming.md",
+      "description": "Unlock optimization with DP strategies"
+    },
+    {
+      "id": "graph-algorithms",
+      "name": "Graph Algorithms",
+      "file": "agents/06-graph-algorithms.md",
+      "description": "Conquer graph traversal and pathfinding"
+    },
+    {
+      "id": "advanced-topics",
+      "name": "Advanced Topics & System Design",
+      "file": "agents/07-advanced-topics.md",
+      "description": "Learn hashing, bit manipulation, and real-world applications"
+    }
+  ],
+  "commands": [
+    {
+      "name": "learn",
+      "file": "commands/learn.md",
+      "description": "Start your learning journey and choose a path"
+    },
+    {
+      "name": "explore-agent",
+      "file": "commands/explore-agent.md",
+      "description": "Explore and understand all available agents"
+    },
+    {
+      "name": "practice",
+      "file": "commands/practice.md",
+      "description": "Get practice problems and coding challenges"
+    },
+    {
+      "name": "interview-prep",
+      "file": "commands/interview-prep.md",
+      "description": "Prepare for technical interviews with targeted learning"
+    }
+  ],
+  "skills": [
+    {
+      "name": "foundations",
+      "path": "skills/foundations/SKILL.md",
+      "description": "Big O notation, complexity analysis, and fundamentals"
+    },
+    {
+      "name": "linear-structures",
+      "path": "skills/linear-structures/SKILL.md",
+      "description": "Linear data structure implementations and operations"
+    },
+    {
+      "name": "nonlinear-structures",
+      "path": "skills/nonlinear-structures/SKILL.md",
+      "description": "Tree, heap, and graph data structures"
+    },
+    {
+      "name": "searching-sorting",
+      "path": "skills/searching-sorting/SKILL.md",
+      "description": "Search and sort algorithm techniques"
+    },
+    {
+      "name": "dynamic-programming",
+      "path": "skills/dynamic-programming/SKILL.md",
+      "description": "Dynamic programming problem-solving strategies"
+    },
+    {
+      "name": "graph-algorithms",
+      "path": "skills/graph-algorithms/SKILL.md",
+      "description": "Graph algorithms and applications"
+    },
+    {
+      "name": "advanced-topics",
+      "path": "skills/advanced-topics/SKILL.md",
+      "description": "Advanced algorithms and bit manipulation"
+    }
+  ],
+  "hooks": {
+    "file": "hooks/hooks.json"
+  },
+  "icon": "📚",
+  "categories": [
+    "learning",
+    "education",
+    "computer-science",
+    "algorithms"
+  ],
+  "minimum_claude_version": "1.0.0"
+}
