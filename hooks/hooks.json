@@ -1,0 +1,48 @@
+{
+  "hooks": [
+    {
+      "name": "learning-progress-tracker",
+      "event": "command-executed",
+      "description": "Track user progress through learning paths",
+      "enabled": true,
+      "commands": ["learn", "assess"]
+    },
+    {
+      "name": "skill-validation",
+      "event": "skill-loaded",
+      "description": "Validate skill prerequisites",
+      "enabled": true
+    },
+    {
+      "name": "project-completion-tracker",
+      "event": "message-submit",
+      "description": "Track completed projects",
+      "enabled": true,
+      "pattern": "(completed|finished|done).*project"
+    },
+    {
+      "name": "knowledge-level-updater",
+      "event": "command-executed",
+      "description": "Update knowledge levels based on assessments",
+      "enabled": true,
+      "commands": ["assess"]
+    }
+  ],
+  "plugins": {
+    "auto-suggest-next-step": {
+      "enabled": true,
+      "trigger": "command-executed",
+      "description": "Automatically suggest next learning steps based on current progress"
+    },
+    "project-recommendation": {
+      "enabled": true,
+      "trigger": "skill-mastered",
+      "description": "Recommend appropriate projects when skills are mastered"
+    },
+    "learning-reminder": {
+      "enabled": false,
+      "interval": "daily",
+      "description": "Optional daily learning reminders"
+    }
+  }
+}

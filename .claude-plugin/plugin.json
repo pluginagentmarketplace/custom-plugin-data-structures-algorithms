@@ -1,0 +1,131 @@
+{
+  "name": "developer-roadmap-plugin",
+  "version": "1.0.0",
+  "displayName": "Developer Roadmap",
+  "description": "Comprehensive learning plugin with 7 specialized agents covering Backend, Frontend, DevOps, Data Science, System Architecture, Mobile, and Cloud development from the official roadmap.sh",
+  "author": "Developer Roadmap Contributors",
+  "license": "MIT",
+  "repository": "https://github.com/kamranahmedse/developer-roadmap",
+  "keywords": [
+    "roadmap",
+    "learning",
+    "development",
+    "career-path",
+    "skill-building"
+  ],
+  "agents": [
+    {
+      "id": "01-backend-developer",
+      "name": "Backend Developer",
+      "description": "Expert backend specialist for APIs, databases, and server architecture",
+      "path": "agents/01-backend-developer.md"
+    },
+    {
+      "id": "02-frontend-developer",
+      "name": "Frontend Developer",
+      "description": "Expert frontend specialist for web UI and React/Vue development",
+      "path": "agents/02-frontend-developer.md"
+    },
+    {
+      "id": "03-devops-engineer",
+      "name": "DevOps Engineer",
+      "description": "Expert DevOps specialist for infrastructure and CI/CD pipelines",
+      "path": "agents/03-devops-engineer.md"
+    },
+    {
+      "id": "04-data-scientist-ai",
+      "name": "Data Scientist & AI Engineer",
+      "description": "Expert data science specialist for ML models and AI solutions",
+      "path": "agents/04-data-scientist-ai.md"
+    },
+    {
+      "id": "05-system-architect",
+      "name": "System Architect",
+      "description": "Expert architect for large-scale system design and optimization",
+      "path": "agents/05-system-architect.md"
+    },
+    {
+      "id": "06-mobile-developer",
+      "name": "Mobile Developer",
+      "description": "Expert mobile specialist for iOS, Android, and cross-platform development",
+      "path": "agents/06-mobile-developer.md"
+    },
+    {
+      "id": "07-cloud-engineer",
+      "name": "Cloud Engineer",
+      "description": "Expert cloud specialist for AWS and cloud infrastructure",
+      "path": "agents/07-cloud-engineer.md"
+    }
+  ],
+  "commands": [
+    {
+      "id": "learn",
+      "name": "learn",
+      "description": "Start your learning journey with role selection",
+      "path": "commands/learn.md"
+    },
+    {
+      "id": "browse-agent",
+      "name": "browse-agent",
+      "description": "Explore all 7 specialized agents and their capabilities",
+      "path": "commands/browse-agent.md"
+    },
+    {
+      "id": "assess",
+      "name": "assess",
+      "description": "Self-assess your knowledge across different tech roles",
+      "path": "commands/assess.md"
+    },
+    {
+      "id": "projects",
+      "name": "projects",
+      "description": "Find hands-on projects to practice skills",
+      "path": "commands/projects.md"
+    }
+  ],
+  "skills": [
+    {
+      "id": "backend-fundamentals",
+      "name": "Backend Fundamentals",
+      "path": "skills/backend/SKILL.md"
+    },
+    {
+      "id": "database-design",
+      "name": "Database Design",
+      "path": "skills/backend/database-design.md"
+    },
+    {
+      "id": "frontend-fundamentals",
+      "name": "Frontend Fundamentals",
+      "path": "skills/frontend/SKILL.md"
+    },
+    {
+      "id": "devops-fundamentals",
+      "name": "DevOps Fundamentals",
+      "path": "skills/devops/SKILL.md"
+    },
+    {
+      "id": "data-science-fundamentals",
+      "name": "Data Science Fundamentals",
+      "path": "skills/data-ai/SKILL.md"
+    },
+    {
+      "id": "system-architecture",
+      "name": "System Architecture",
+      "path": "skills/architecture/SKILL.md"
+    },
+    {
+      "id": "mobile-development",
+      "name": "Mobile Development",
+      "path": "skills/mobile/SKILL.md"
+    },
+    {
+      "id": "cloud-platform-aws",
+      "name": "Cloud Platform (AWS)",
+      "path": "skills/cloud/SKILL.md"
+    }
+  ],
+  "hooks": {
+    "path": "hooks/hooks.json"
+  }
+}
