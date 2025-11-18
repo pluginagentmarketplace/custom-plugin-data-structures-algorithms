@@ -1,6 +1,8 @@
-# Interview Prep - Ace Your Coding Interviews
+# 🚀 Interview Mastery - Ace Your Coding Interview
 
-Master the most frequently asked interview problems and strategies.
+**Complete Coding Interview Preparation** - Master the top 20 most frequently asked DSA problems, strategic approaches, communication tips, and proven interview techniques used by engineers at Google, Meta, Microsoft, and Amazon.
+
+> "Success in interviews is 30% knowledge, 70% practice and strategy." - Engineering Interview Coach
 
 ## Most Frequently Asked (Top 20 Problems)
 

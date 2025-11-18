@@ -1,10 +1,12 @@
-# Problem Solver - Find DSA Practice Problems
+# 🎯 Problem Solver - Master DSA Through Practice
 
-Find and solve data structures and algorithms problems organized by topic and difficulty.
+**Interactive Problem Browser** - Find, solve, and master 300+ curated DSA problems with step-by-step solutions, complexity analysis, and interview preparation.
 
-## Problem Categories
+> "The only way to master DSA is to solve problems systematically." - Every successful engineer
 
-### Arrays & Lists (50+ Problems)
+## 📚 Problem Categories By Topic
+
+### 📊 Arrays & Lists (50+ Carefully Curated Problems)
 - **Easy**: Two Sum, Contains Duplicate, Valid Anagram, Best Time to Buy Stock
 - **Medium**: 3Sum, Container With Most Water, Product of Array Except Self
 - **Hard**: Trapping Rain Water, Sliding Window Maximum, Median of Two Sorted Arrays
