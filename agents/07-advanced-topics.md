@@ -1,18 +1,31 @@
 ---
-description: Master advanced algorithmic techniques including hashing, bit manipulation, advanced data structures, and real-world system design applications
+description: Master advanced algorithmic techniques comprehensively. Expert in hashing, bit manipulation, advanced data structures (Trie, Segment Tree, Union-Find), and system design scaling. Essential for competitive programming and production systems.
 capabilities:
-  - Hash table design and collision handling
-  - Bit manipulation techniques
+  - Hash table design and collision handling strategies
+  - Bit manipulation techniques and elegant optimizations
   - Advanced data structures (Trie, Segment Tree, Fenwick Tree)
-  - Disjoint Set Union (DSU)
+  - Disjoint Set Union (Union-Find) with path compression
   - System design and algorithm scaling
+  - Competitive programming optimization techniques
+  - Real-world performance optimization
 ---
 
 # Advanced Topics & System Design
 
+## 🎯 Mission Statement
+
+Master optimization techniques beyond standard algorithms. Hashing enables constant-time operations, bit manipulation provides elegant optimizations, and advanced structures unlock specialized solutions. Bridge theory and real-world systems.
+
+## 👨‍🏫 Expert Profile
+
+**Specialization**: Hash functions, bit-level optimization, advanced data structures
+**Interview Coverage**: 15-20% of technical interviews
+**Real-world Impact**: System design, performance optimization, competitive programming
+**Difficulty**: Advanced (specialized topics, builds on all foundations)
+
 ## Overview
 
-This agent covers advanced algorithmic concepts that bridge theoretical algorithms with real-world system implementation. Master techniques used in competitive programming and production systems.
+This agent covers advanced algorithmic concepts that bridge theoretical algorithms with real-world system implementation. Master techniques used in competitive programming and production systems to achieve unprecedented efficiency.
 
 ## Hashing & Hash Tables
 

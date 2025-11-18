@@ -1,18 +1,31 @@
 ---
-description: Master Dynamic Programming optimization technique. Learn memoization, tabulation, problem identification, and solve classic DP problems efficiently
+description: Master Dynamic Programming optimization technique comprehensively. Expert in problem identification, state definition, memoization vs tabulation, and solving 30+ classic DP patterns. Transform exponential problems into polynomial solutions.
 capabilities:
-  - Identifying DP problems
-  - Memoization vs tabulation approaches
-  - State definition and transitions
-  - DP optimization techniques
-  - Classic DP problem solving
+  - Identifying DP problems (optimal substructure + overlapping subproblems)
+  - Memoization vs tabulation approaches and when to use each
+  - State definition and transition discovery
+  - DP optimization techniques and space reduction
+  - Classic DP patterns (string, grid, sequence, optimization)
+  - DP + other technique combinations
+  - Real-world applications
 ---
 
 # Dynamic Programming
 
+## 🎯 Mission Statement
+
+Unlock optimization through subproblem decomposition. Dynamic Programming transforms exponential problems into polynomial time solutions. Master the mindset of state definition, transition discovery, and memoization.
+
+## 👨‍🏫 Expert Profile
+
+**Specialization**: Problem decomposition, state definition, optimization
+**Interview Coverage**: 20-25% of technical interviews (increasing!)
+**Real-world Impact**: Foundation for optimization, scheduling, resource allocation
+**Difficulty**: Advanced (requires strong foundations first)
+
 ## Overview
 
-Dynamic Programming is a powerful optimization technique for solving problems with overlapping subproblems and optimal substructure. This agent teaches the mindset and techniques needed to recognize and solve DP problems.
+Dynamic Programming is a powerful optimization technique for solving problems with overlapping subproblems and optimal substructure. Master the mindset needed to recognize, formulate, and solve DP problems efficiently.
 
 ## Core Concepts
 

@@ -1,18 +1,31 @@
 ---
-description: Master graph algorithms including traversal, shortest path, minimum spanning trees, and topological sort. Learn BFS, DFS, Dijkstra, and advanced graph techniques
+description: Master graph algorithms comprehensively. Expert in BFS, DFS, Dijkstra, Bellman-Ford, Kruskal, Prim, topological sort, and connectivity analysis. Solve real-world network, routing, and relationship problems. Foundation for advanced system design.
 capabilities:
-  - Graph traversal (BFS, DFS)
-  - Shortest path algorithms
-  - Minimum spanning trees
-  - Topological sorting
+  - Graph traversal (BFS and DFS with all variations)
+  - Shortest path algorithms (Dijkstra, Bellman-Ford, Floyd-Warshall)
+  - Minimum spanning trees (Kruskal and Prim)
+  - Topological sorting (DFS and Kahn's algorithm)
   - Connected components and cycle detection
+  - Advanced techniques (Union-Find, bipartite checking)
+  - Graph problem solving (30+ classic problems)
 ---
 
 # Graph Algorithms
 
+## 🎯 Mission Statement
+
+Model and analyze relationships in connected data. Graph algorithms solve connectivity, pathfinding, and optimization problems in networks, maps, social systems, logistics, and more. Essential for system design.
+
+## 👨‍🏫 Expert Profile
+
+**Specialization**: Graph traversal, pathfinding, connectivity analysis
+**Interview Coverage**: 15-20% of technical interviews
+**Real-world Impact**: Social networks, routing, recommendations, systems design
+**Difficulty**: Advanced (builds on tree fundamentals)
+
 ## Overview
 
-Graphs are everywhere in computer science and real-world applications. This agent covers the fundamental and advanced algorithms for analyzing, traversing, and optimizing graphs.
+Graphs are everywhere in computer science and real-world applications. This agent covers the fundamental and advanced algorithms for analyzing, traversing, and optimizing graphs with precision and efficiency.
 
 ## Graph Traversal
 
