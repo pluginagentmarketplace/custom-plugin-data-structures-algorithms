@@ -1,0 +1,152 @@
+{
+  "hooks": [
+    {
+      "name": "dsa-progress-tracker",
+      "event": "command-executed",
+      "description": "Track DSA learning progress across all 7 domains",
+      "enabled": true,
+      "commands": ["difficulty-selector", "problem-solver", "interview-prep"],
+      "actions": {
+        "track": "problems_solved",
+        "update": "user_progress_model",
+        "persist": "local_storage"
+      }
+    },
+    {
+      "name": "skill-prerequisite-validator",
+      "event": "skill-loaded",
+      "description": "Validate prerequisites before loading advanced skills",
+      "enabled": true,
+      "prerequisites": {
+        "tree-traversal": ["array-techniques"],
+        "graph-algorithms": ["tree-traversal"],
+        "dynamic-programming": ["array-techniques", "tree-traversal"],
+        "bit-manipulation": ["fundamentals"]
+      }
+    },
+    {
+      "name": "problem-completion-tracker",
+      "event": "message-submit",
+      "description": "Track solved problems and update domain expertise",
+      "enabled": true,
+      "pattern": "(solved|completed|mastered).*problem",
+      "metrics": {
+        "track": ["problems_solved", "domain", "difficulty", "time_taken"],
+        "update_stats": true
+      }
+    },
+    {
+      "name": "knowledge-level-updater",
+      "event": "command-executed",
+      "description": "Update proficiency level for each DSA domain",
+      "enabled": true,
+      "commands": ["difficulty-selector", "problem-solver"],
+      "domains": ["arrays", "trees", "graphs", "dp", "sorting", "hashing", "advanced"]
+    },
+    {
+      "name": "interview-readiness-scorer",
+      "event": "command-executed",
+      "description": "Calculate interview readiness score based on problems solved",
+      "enabled": true,
+      "triggers": ["interview-prep", "problem-solver"],
+      "scoring": {
+        "easy_problem": 1,
+        "medium_problem": 3,
+        "hard_problem": 5,
+        "target_score": 100
+      }
+    },
+    {
+      "name": "smart-problem-recommender",
+      "event": "skill-mastered",
+      "description": "Recommend next problems based on strengths and weaknesses",
+      "enabled": true,
+      "recommendation_engine": "adaptive_learning",
+      "factors": ["difficulty", "domain", "patterns", "time_spent"]
+    },
+    {
+      "name": "learning-consistency-tracker",
+      "event": "command-executed",
+      "description": "Track daily consistency and streak",
+      "enabled": true,
+      "metrics": ["daily_problems", "weekly_total", "current_streak"],
+      "gamification": true
+    }
+  ],
+  "smart-features": {
+    "auto-suggest-next-topic": {
+      "enabled": true,
+      "trigger": "problem-solved",
+      "description": "Suggest related topics and problems based on current solution",
+      "logic": "pattern-based recommendation",
+      "suggestion_count": 3
+    },
+    "adaptive-difficulty-adjustment": {
+      "enabled": true,
+      "trigger": "progress-tracking",
+      "description": "Automatically adjust problem difficulty based on success rate",
+      "logic": "success_rate > 80% → increase_difficulty",
+      "target_success_rate": "70-80%"
+    },
+    "weak-area-detection": {
+      "enabled": true,
+      "trigger": "ongoing",
+      "description": "Identify weak domains and suggest focused practice",
+      "logic": "monitor_performance_per_domain",
+      "action": "suggest_focused_learning"
+    },
+    "interview-simulation-scheduler": {
+      "enabled": true,
+      "trigger": "interview-prep-command",
+      "description": "Schedule mock interviews and track performance",
+      "frequency": "3x per week recommended",
+      "duration_minutes": 45
+    },
+    "achievement-badges": {
+      "enabled": true,
+      "trigger": "milestone-reached",
+      "descriptions": {
+        "first_50_problems": "🏆 Problem Solver",
+        "all_domains_explored": "🌟 DSA Master",
+        "interview_ready": "🚀 Interview Ready",
+        "100_consecutive": "💪 Consistency Champion",
+        "all_hard_problems": "🔥 Hardcore Coder"
+      }
+    },
+    "daily-learning-reminder": {
+      "enabled": false,
+      "interval": "daily",
+      "time": "09:00",
+      "description": "Optional reminder to maintain learning streak (disabled by default)"
+    },
+    "performance-analytics": {
+      "enabled": true,
+      "metrics": {
+        "problems_solved": true,
+        "domains_mastered": true,
+        "accuracy_rate": true,
+        "average_time": true,
+        "improvement_trends": true
+      },
+      "dashboard": "weekly_report"
+    },
+    "social-sharing": {
+      "enabled": false,
+      "platforms": ["twitter", "linkedin"],
+      "triggers": ["milestone", "achievement"],
+      "opt_in": true
+    }
+  },
+  "configuration": {
+    "version": "1.0.0",
+    "last_updated": "2025-11-18",
+    "auto_sync": true,
+    "cloud_backup": false,
+    "user_preferences": {
+      "notifications": true,
+      "daily_reminders": false,
+      "achievement_badges": true,
+      "analytics": true
+    }
+  }
+}
