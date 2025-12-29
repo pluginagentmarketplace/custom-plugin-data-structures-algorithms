@@ -1,6 +1,9 @@
 ---
 name: sorting-algorithms
 description: Complete sorting algorithm implementations including quick sort, merge sort, and binary search with complexity analysis.
+sasmp_version: "1.3.0"
+bonded_agent: 01-arrays-lists
+bond_type: PRIMARY_BOND
 ---
 
 # Sorting Algorithms Skill

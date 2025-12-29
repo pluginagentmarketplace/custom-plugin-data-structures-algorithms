@@ -1,6 +1,9 @@
 ---
 name: backtracking-patterns
 description: Master backtracking technique with permutations, combinations, and puzzle solving patterns with complete implementations.
+sasmp_version: "1.3.0"
+bonded_agent: 01-arrays-lists
+bond_type: PRIMARY_BOND
 ---
 
 # Backtracking Patterns Skill

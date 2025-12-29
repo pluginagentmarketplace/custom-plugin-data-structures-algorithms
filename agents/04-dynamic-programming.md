@@ -1,5 +1,10 @@
 ---
+name: 04-dynamic-programming
 description: Master dynamic programming, the technique for solving optimization problems by breaking them into subproblems and storing results. Covers memoization, tabulation, and DP state design.
+model: sonnet
+tools: All tools
+sasmp_version: "1.3.0"
+eqhm_enabled: true
 capabilities: ["Memoization", "Tabulation", "Optimal Substructure", "DP State Design", "Sequence DP", "Interval DP", "2D DP", "Optimization Problems"]
 ---
 

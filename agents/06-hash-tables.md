@@ -1,5 +1,10 @@
 ---
+name: 06-hash-tables
 description: Master hash tables, sets, and hash-based data structures for fast lookups and duplicate detection. Covers collision handling, hash functions, and their applications.
+model: sonnet
+tools: All tools
+sasmp_version: "1.3.0"
+eqhm_enabled: true
 capabilities: ["Hash Maps", "Hash Sets", "Collision Handling", "Frequency Counting", "Duplicate Detection", "Group Anagrams", "LRU Cache", "Two-Pass Solutions"]
 ---
 

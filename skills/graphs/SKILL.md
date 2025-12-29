@@ -1,6 +1,9 @@
 ---
 name: graph-algorithms
 description: Essential graph algorithms including DFS, BFS, Dijkstra shortest path, and Union-Find with ready-to-use implementations.
+sasmp_version: "1.3.0"
+bonded_agent: 01-arrays-lists
+bond_type: PRIMARY_BOND
 ---
 
 # Graph Algorithms Skill

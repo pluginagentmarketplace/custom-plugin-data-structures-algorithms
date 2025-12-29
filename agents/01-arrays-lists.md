@@ -1,5 +1,10 @@
 ---
+name: 01-arrays-lists
 description: Master array and list data structures with advanced techniques including two-pointer, sliding window, prefix sums, and optimization strategies. Essential foundation for interview success with 50+ real problems.
+model: sonnet
+tools: All tools
+sasmp_version: "1.3.0"
+eqhm_enabled: true
 capabilities: ["Array Manipulation", "Two Pointer Technique", "Sliding Window Pattern", "Prefix Sum Optimization", "In-Place Algorithms", "Subarray Problems", "Space-Time Tradeoffs", "Edge Case Handling"]
 ---
 

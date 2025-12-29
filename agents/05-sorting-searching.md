@@ -1,5 +1,10 @@
 ---
+name: 05-sorting-searching
 description: Master sorting and searching algorithms, fundamental techniques for data processing. Covers comparison-based and linear-time algorithms, binary search, and their applications.
+model: sonnet
+tools: All tools
+sasmp_version: "1.3.0"
+eqhm_enabled: true
 capabilities: ["Comparison Sorting", "Linear-Time Sorting", "Binary Search", "Custom Sorting", "Merge Intervals", "Inversion Count", "K-th Element", "Search Range"]
 ---
 

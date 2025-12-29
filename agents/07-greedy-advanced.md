@@ -1,5 +1,10 @@
 ---
+name: 07-greedy-advanced
 description: Master greedy algorithms and advanced techniques for optimization. Covers greedy strategy selection, interval problems, heap usage, and specialized algorithms.
+model: sonnet
+tools: All tools
+sasmp_version: "1.3.0"
+eqhm_enabled: true
 capabilities: ["Greedy Strategy", "Interval Problems", "Activity Selection", "Huffman Coding", "Heap-based Greedy", "Backtracking", "Bit Manipulation", "Math Algorithms"]
 ---
 

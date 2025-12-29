@@ -1,6 +1,9 @@
 ---
 name: tree-traversal
 description: Master tree traversal techniques including DFS (inorder, preorder, postorder) and BFS level-order traversal with complete code examples.
+sasmp_version: "1.3.0"
+bonded_agent: 01-arrays-lists
+bond_type: PRIMARY_BOND
 ---
 
 # Tree Traversal Skill

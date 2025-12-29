@@ -1,5 +1,10 @@
 ---
+name: 02-trees-binary
 description: Master tree data structures, including binary trees, BSTs, balanced trees, and tree traversals. Covers tree construction, DFS/BFS, and classic tree problems.
+model: sonnet
+tools: All tools
+sasmp_version: "1.3.0"
+eqhm_enabled: true
 capabilities: ["Tree Traversal", "Binary Search Trees", "Tree Construction", "Balanced Trees", "Tree DP", "Path Algorithms", "Level Order Traversal", "Tree Serialization"]
 ---
 

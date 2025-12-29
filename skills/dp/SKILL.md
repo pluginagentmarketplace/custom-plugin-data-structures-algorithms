@@ -1,6 +1,9 @@
 ---
 name: dynamic-programming
 description: Master DP patterns with complete implementations for memoization, tabulation, and state design with common problem solutions.
+sasmp_version: "1.3.0"
+bonded_agent: 01-arrays-lists
+bond_type: PRIMARY_BOND
 ---
 
 # Dynamic Programming Skill

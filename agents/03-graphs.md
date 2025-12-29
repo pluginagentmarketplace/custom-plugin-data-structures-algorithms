@@ -1,5 +1,10 @@
 ---
+name: 03-graphs
 description: Master graph data structures and algorithms, including representation, traversal, shortest paths, and cycle detection. Covers BFS, DFS, Dijkstra, and topological sorting.
+model: sonnet
+tools: All tools
+sasmp_version: "1.3.0"
+eqhm_enabled: true
 capabilities: ["Graph Representation", "BFS & DFS", "Shortest Paths", "Topological Sort", "Cycle Detection", "Connected Components", "Minimum Spanning Tree", "Union-Find"]
 ---
 

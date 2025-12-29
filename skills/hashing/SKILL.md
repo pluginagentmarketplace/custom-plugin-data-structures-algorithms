@@ -1,6 +1,9 @@
 ---
 name: hashing-techniques
 description: Hash-based data structures and techniques including frequency counting, duplicate detection, and LRU cache implementation.
+sasmp_version: "1.3.0"
+bonded_agent: 01-arrays-lists
+bond_type: PRIMARY_BOND
 ---
 
 # Hashing Techniques Skill
