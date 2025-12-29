@@ -1,0 +1,15 @@
+{
+  "name": "pluginagentmarketplace-data-structures-algorithms",
+  "owner": {
+    "name": "Plugin Agent Marketplace",
+    "email": "pluginagentmarketplace@gmail.com"
+  },
+  "plugins": [
+    {
+      "name": "data-structures-algorithms-assistant",
+      "source": "./",
+      "description": "Claude Code plugin for data structures algorithms development",
+      "version": "1.0.0"
+    }
+  ]
+}

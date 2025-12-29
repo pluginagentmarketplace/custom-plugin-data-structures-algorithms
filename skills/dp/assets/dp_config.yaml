@@ -1,0 +1,4 @@
+# Dynamic Programming Configuration
+patterns: [fibonacci, knapsack, lcs, lis, matrix_chain, coin_change]
+approaches: [top_down_memoization, bottom_up_tabulation]
+optimization: [space_optimization, rolling_array]

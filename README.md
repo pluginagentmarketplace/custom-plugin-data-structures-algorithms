@@ -1,595 +1,263 @@
-# 🎓 DSA Mastery - The Ultimate Data Structures & Algorithms Plugin
-
 <div align="center">
 
-**Master DSA with 7 expert agents, 11+ skills, 300+ problems, and complete FAANG interview preparation**
+<!-- Animated Typing Banner -->
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=1000&color=2E9EF7&center=true&vCenter=true&multiline=true&repeat=true&width=600&height=100&lines=Data+Structures+Algorithms+Assistant;7+Agents+%7C+8+Skills;Claude+Code+Plugin" alt="Data Structures Algorithms Assistant" />
 
-Built for Claude Code with production-grade plugin architecture.
+<br/>
 
-[![Claude Code Plugin](https://img.shields.io/badge/Claude%20Code-Plugin-blue?style=flat-square)](https://claude.ai)
-[![License: MIT](https://img.shields.io/badge/License-MIT-green?style=flat-square)](LICENSE)
-[![Status: Production Ready](https://img.shields.io/badge/Status-Production%20Ready-brightgreen?style=flat-square)](.)
+<!-- Badge Row 1: Status Badges -->
+[![Version](https://img.shields.io/badge/Version-1.0.0-blue?style=for-the-badge)](https://github.com/pluginagentmarketplace/custom-plugin-data-structures-algorithms/releases)
+[![License](https://img.shields.io/badge/License-Custom-yellow?style=for-the-badge)](LICENSE)
+[![Status](https://img.shields.io/badge/Status-Production-brightgreen?style=for-the-badge)](#)
+[![SASMP](https://img.shields.io/badge/SASMP-v1.3.0-blueviolet?style=for-the-badge)](#)
 
-[🚀 Quick Start](#-quick-start) • [👥 Agents](#-7-specialized-dsa-agents) • [📚 Problems](#-300-curated-problems) • [🚀 Interviews](#-faang-interview-mastery) • [📖 Docs](#-documentation)
+<!-- Badge Row 2: Content Badges -->
+[![Agents](https://img.shields.io/badge/Agents-7-orange?style=flat-square&logo=robot)](#-agents)
+[![Skills](https://img.shields.io/badge/Skills-8-purple?style=flat-square&logo=lightning)](#-skills)
+[![Commands](https://img.shields.io/badge/Commands-4-green?style=flat-square&logo=terminal)](#-commands)
+
+<br/>
+
+<!-- Quick CTA Row -->
+[📦 **Install Now**](#-quick-start) · [🤖 **Explore Agents**](#-agents) · [📖 **Documentation**](#-documentation) · [⭐ **Star this repo**](https://github.com/pluginagentmarketplace/custom-plugin-data-structures-algorithms)
+
+---
+
+### What is this?
+
+> **Data Structures Algorithms Assistant** is a Claude Code plugin with **7 agents** and **8 skills** for data structures algorithms development.
 
 </div>
 
 ---
 
-## 💪 Why Master DSA?
+## 📑 Table of Contents
 
-Data Structures & Algorithms is the **single most important skill** for software engineers:
+<details>
+<summary>Click to expand</summary>
 
-- 🎯 **Interviews**: 100% of FAANG coding interviews require DSA mastery
-- 🏆 **Career**: 10x better job opportunities with strong DSA skills
-- 💡 **Problem Solving**: Foundation for designing efficient systems
-- 🚀 **Performance**: Write code that scales to millions of users
-- 💰 **Compensation**: Top tech companies pay premiums for DSA expertise
+- [Quick Start](#-quick-start)
+- [Features](#-features)
+- [Agents](#-agents)
+- [Skills](#-skills)
+- [Commands](#-commands)
+- [Documentation](#-documentation)
+- [Contributing](#-contributing)
+- [License](#-license)
 
----
-
-## 🎁 What You Get
-
-| Component | Count | Details |
-|-----------|-------|---------|
-| **Expert Agents** | 7 | Arrays, Trees, Graphs, DP, Sorting, Hashing, Advanced |
-| **Production Skills** | 11+ | Code-ready implementations with complexity |
-| **Interactive Commands** | 4 | Solver, selector, interview prep, complexity |
-| **Curated Problems** | 300+ | Easy (100), Medium (150), Hard (50) |
-| **Code Examples** | 50+ | Python, JavaScript, Java, C++ |
-| **Interview Guides** | Complete | Top 20 + strategies + communication |
-| **Learning Hours** | 100+ | Comprehensive content + video references |
+</details>
 
 ---
 
 ## 🚀 Quick Start
 
-### Installation (One Command)
+### Prerequisites
+
+- Claude Code CLI v2.0.27+
+- Active Claude subscription
+
+### Installation (Choose One)
+
+<details open>
+<summary><strong>Option 1: From Marketplace (Recommended)</strong></summary>
 
 ```bash
-# Claude Code: Settings → Add Plugin → ./custom-plugin-data-structures-algorithms
-# Or when on marketplace: /add-plugin dsa-mastery
+# Step 1️⃣ Add the marketplace
+/plugin add marketplace pluginagentmarketplace/custom-plugin-data-structures-algorithms
+
+# Step 2️⃣ Install the plugin
+/plugin install data-structures-algorithms-assistant@pluginagentmarketplace-data-structures-algorithms
+
+# Step 3️⃣ Restart Claude Code
+# Close and reopen your terminal/IDE
 ```
 
-### Your First 5 Minutes
+</details>
+
+<details>
+<summary><strong>Option 2: Local Installation</strong></summary>
 
 ```bash
-# 1. Pick your level (beginner/intermediate/advanced)
-/difficulty-selector
+# Clone the repository
+git clone https://github.com/pluginagentmarketplace/custom-plugin-data-structures-algorithms.git
+cd custom-plugin-data-structures-algorithms
 
-# 2. Browse 300+ curated problems by topic
-/problem-solver
+# Load locally
+/plugin load .
 
-# 3. Understand complexity analysis
-/complexity-analyzer
+# Restart Claude Code
+```
 
-# 4. Master interview strategies
-/interview-prep
+</details>
+
+### ✅ Verify Installation
+
+After restart, you should see these agents:
+
+```
+data-structures-algorithms-assistant:02-trees-binary
+data-structures-algorithms-assistant:07-greedy-advanced
+data-structures-algorithms-assistant:01-arrays-lists
+data-structures-algorithms-assistant:04-dynamic-programming
+data-structures-algorithms-assistant:06-hash-tables
+... and 2 more
 ```
 
 ---
 
-## 👥 7 Specialized DSA Agents
+## ✨ Features
 
-### 1. 📊 Arrays & Lists - Foundation
-**Master the most fundamental data structure**
-
-| Aspect | Details |
-|--------|---------|
-| **Core Topics** | Manipulation, searching, optimization techniques |
-| **Key Patterns** | Two pointers, sliding window, prefix sums |
-| **Problems** | 50+ (Easy→Hard): Two Sum, Trapping Rain Water |
-| **Skills** | `array-techniques`, `sliding-window`, `prefix-sum` |
-| **Interview Freq** | ⭐⭐⭐⭐⭐ (Most common) |
-| **Time to Master** | 2-3 weeks |
-
-### 2. 🌳 Trees - Hierarchical Thinking
-**Navigate and optimize tree structures**
-
-| Aspect | Details |
-|--------|---------|
-| **Core Topics** | Traversals (DFS, BFS), BST, balanced trees, tree DP |
-| **Key Patterns** | Recursion, post-order, pre-order, level-order |
-| **Problems** | 40+ (Easy→Hard): LCA, Path Sum, Serialization |
-| **Skills** | `tree-traversal`, `bst-operations`, `tree-dp` |
-| **Interview Freq** | ⭐⭐⭐⭐⭐ (Very common) |
-| **Time to Master** | 2-3 weeks |
-
-### 3. 🕸️ Graphs - Network Thinking
-**Solve complex connectivity problems**
-
-| Aspect | Details |
-|--------|---------|
-| **Core Topics** | Representation, traversal, shortest paths, cycles |
-| **Key Patterns** | DFS, BFS, Dijkstra, topological sort, Union-Find |
-| **Problems** | 35+ (Easy→Hard): Islands, Course Schedule, Network |
-| **Skills** | `graph-algorithms`, `shortest-path`, `union-find` |
-| **Interview Freq** | ⭐⭐⭐⭐ (Very common) |
-| **Time to Master** | 3-4 weeks |
-
-### 4. ⚡ Dynamic Programming - Optimization Master
-**Break down complex optimization problems**
-
-| Aspect | Details |
-|--------|---------|
-| **Core Topics** | Memoization, tabulation, state design, DP patterns |
-| **Key Patterns** | Top-down, bottom-up, state transitions |
-| **Problems** | 45+ (Easy→Hard): Coin Change, Edit Distance, Knapsack |
-| **Skills** | `dynamic-programming`, `dp-patterns`, `knapsack` |
-| **Interview Freq** | ⭐⭐⭐⭐⭐ (Hardest, most rewarding) |
-| **Time to Master** | 4-6 weeks |
-
-### 5. 🔍 Searching & Sorting - Fundamentals
-**Understand algorithmic primitives**
-
-| Aspect | Details |
-|--------|---------|
-| **Core Topics** | Sorting (O(n log n)), binary search, comparators |
-| **Key Patterns** | Merge sort, quick sort, heap sort, binary search |
-| **Problems** | 30+ (Easy→Hard): Merge Intervals, Median |
-| **Skills** | `sorting-algorithms`, `binary-search`, `counting-sort` |
-| **Interview Freq** | ⭐⭐⭐⭐ (Common) |
-| **Time to Master** | 2 weeks |
-
-### 6. #️⃣ Hash Tables - O(1) Lookup
-**Build lightning-fast solutions**
-
-| Aspect | Details |
-|--------|---------|
-| **Core Topics** | Hash maps, sets, frequency, LRU cache |
-| **Key Patterns** | Two-pass, frequency counting, grouping |
-| **Problems** | 35+ (Easy→Hard): Anagrams, LRU Cache, Subarray |
-| **Skills** | `hashing-techniques`, `lru-cache`, `grouping` |
-| **Interview Freq** | ⭐⭐⭐⭐ (Very common) |
-| **Time to Master** | 2 weeks |
-
-### 7. 🎯 Advanced - Mastery Level
-**Solve hard problems like FAANG engineers**
-
-| Aspect | Details |
-|--------|---------|
-| **Core Topics** | Greedy, backtracking, bit manipulation, math |
-| **Key Patterns** | Exhaustive search, optimization, binary tricks |
-| **Problems** | 40+ (Hard): N-Queens, Regular Expressions, Sudoku |
-| **Skills** | `backtracking`, `bit-manipulation`, `greedy` |
-| **Interview Freq** | ⭐⭐⭐ (Hard interviews) |
-| **Time to Master** | 4-6 weeks |
+| Feature | Description |
+|---------|-------------|
+| 🤖 **7 Agents** | Specialized AI agents for data structures algorithms tasks |
+| 🛠️ **8 Skills** | Reusable capabilities with Golden Format |
+| ⌨️ **4 Commands** | Quick slash commands |
+| 🔄 **SASMP v1.3.0** | Full protocol compliance |
 
 ---
 
-## 📚 Structured Learning Paths
+## 🤖 Agents
 
-### Path 1: Beginner (2 Weeks) - Build Foundation
-**For**: First-time learners, career changers
+### 7 Specialized Agents
 
-```
-Week 1:
-  ✅ Arrays & two pointers (5 problems/day)
-  ✅ Hash maps basics (3 problems/day)
-  ✅ String manipulation (3 problems/day)
-
-Week 2:
-  ✅ Linked lists (5 problems/day)
-  ✅ Stacks & queues (5 problems/day)
-  ✅ Review & consolidate
-```
-
-**Expected**: Solve 50+ easy problems, confident on fundamentals
-
-### Path 2: Intermediate (4 Weeks) - Interview Ready
-**For**: Have basics, preparing for interviews
-
-```
-Weeks 1-2:
-  ✅ Trees & BFS/DFS (7 problems/day)
-  ✅ Basic DP (5 problems/day)
-  ✅ Sorting & searching (5 problems/day)
-
-Weeks 3-4:
-  ✅ Graph algorithms (7 problems/day)
-  ✅ Advanced hashing (5 problems/day)
-  ✅ Practice interviews
-```
-
-**Expected**: Solve 100+ total problems, pass most interviews
-
-### Path 3: Advanced (6 Weeks) - FAANG Ready
-**For**: Interview prep, mastery, system design prep
-
-```
-Weeks 1-2:
-  ✅ Hard DP (10 problems/day)
-  ✅ Advanced graphs (7 problems/day)
-  ✅ Backtracking (5 problems/day)
-
-Weeks 3-4:
-  ✅ Bit manipulation (5 problems/day)
-  ✅ Greedy strategies (5 problems/day)
-  ✅ Mixed hard problems (10 problems/day)
-
-Weeks 5-6:
-  ✅ Mock interviews (3x/week)
-  ✅ System design integration
-  ✅ Weaknesses review
-```
-
-**Expected**: Solve 250+ total problems, ace FAANG interviews
+| # | Agent | Purpose |
+|---|-------|---------|
+| 1 | **02-trees-binary** | Master tree data structures, including binary trees, BSTs, b |
+| 2 | **07-greedy-advanced** | Master greedy algorithms and advanced techniques for optimiz |
+| 3 | **01-arrays-lists** | Master array and list data structures with advanced techniqu |
+| 4 | **04-dynamic-programming** | Master dynamic programming, the technique for solving optimi |
+| 5 | **06-hash-tables** | Master hash tables, sets, and hash-based data structures for |
+| 6 | **03-graphs** | Master graph data structures and algorithms, including repre |
+| 7 | **05-sorting-searching** | Master sorting and searching algorithms, fundamental techniq |
 
 ---
 
-## 🛠️ 11+ Production-Ready Skills
+## 🛠️ Skills
 
-Each skill includes:
-- ✅ **Complete Implementations**: Python, JavaScript, Java, C++
-- ✅ **Complexity Analysis**: Time and space breakdown
-- ✅ **Common Variations**: Follow-up questions, alternatives
-- ✅ **Real-World Applications**: Where you'd use this in practice
-- ✅ **Interview Tips**: What interviewers care about
+### Available Skills
 
-### Core Skills Library
-
-```
-Arrays Domain:
-  ├─ array-techniques (two pointers, sliding window)
-  └─ prefix-sum (range queries, subarray)
-
-Trees Domain:
-  ├─ tree-traversal (DFS, BFS, all orders)
-  ├─ bst-operations (insertion, search, validation)
-  └─ tree-dp (path sum, optimization)
-
-Graphs Domain:
-  ├─ graph-algorithms (DFS, BFS, traversal)
-  ├─ shortest-path (Dijkstra, Bellman-Ford)
-  └─ union-find (connectivity, MST)
-
-DP Domain:
-  ├─ dynamic-programming (memoization, tabulation)
-  ├─ dp-patterns (sequences, intervals, matrices)
-  └─ knapsack (0/1, unbounded, variants)
-
-Sorting Domain:
-  ├─ sorting-algorithms (merge, quick, heap)
-  ├─ binary-search (exact, leftmost, rightmost)
-  └─ counting-sort (linear-time, radix)
-
-Hashing Domain:
-  ├─ hashing-techniques (frequency, grouping)
-  ├─ lru-cache (implementation, optimization)
-  └─ hash-set (duplicates, anagrams)
-
-Advanced Domain:
-  ├─ backtracking-patterns (permutations, combinations)
-  ├─ bit-manipulation (operations, tricks, XOR)
-  └─ greedy-strategy (selection, proof, optimization)
-```
+| Skill | Description | Invoke |
+|-------|-------------|--------|
+| `trees` | Master tree traversal techniques including DFS (inorder, pre | `Skill("data-structures-algorithms-assistant:trees")` |
+| `backtracking` | Master backtracking technique with permutations, combination | `Skill("data-structures-algorithms-assistant:backtracking")` |
+| `hashing` | Hash-based data structures and techniques including frequenc | `Skill("data-structures-algorithms-assistant:hashing")` |
+| `bitmanip` | Bit manipulation tricks and techniques for solving problems  | `Skill("data-structures-algorithms-assistant:bitmanip")` |
+| `arrays` | Master essential array techniques including two pointers, sl | `Skill("data-structures-algorithms-assistant:arrays")` |
+| `sorting` | Complete sorting algorithm implementations including quick s | `Skill("data-structures-algorithms-assistant:sorting")` |
+| `dp` | Master DP patterns with complete implementations for memoiza | `Skill("data-structures-algorithms-assistant:dp")` |
+| `graphs` | Essential graph algorithms including DFS, BFS, Dijkstra shor | `Skill("data-structures-algorithms-assistant:graphs")` |
 
 ---
 
-## 📊 300+ Curated Problems
+## ⌨️ Commands
 
-### Problem Quality Guarantees
-✅ **Real Questions**: Used in actual FAANG interviews
-✅ **Multiple Solutions**: Compare approaches, trade-offs
-✅ **Complexity Analyzed**: Understand why each works
-✅ **Follow-ups**: Variations you might face
-✅ **Video References**: Optional walkthrough links
-
-### Problem Distribution
-
-| Difficulty | Count | Target Time | Use Case |
-|-----------|-------|------------|----------|
-| **Easy** | 100 | 15-30 min | Warmup, confidence |
-| **Medium** | 150 | 30-45 min | Real interviews |
-| **Hard** | 50 | 45-60 min | FAANG preparation |
-
-### By Topic
-
-| Topic | Easy | Med | Hard | Total |
-|-------|------|-----|------|-------|
-| Arrays | 15 | 20 | 15 | 50 |
-| Trees | 12 | 18 | 10 | 40 |
-| Graphs | 8 | 15 | 12 | 35 |
-| DP | 15 | 20 | 10 | 45 |
-| Sorting | 10 | 12 | 8 | 30 |
-| Hashing | 15 | 15 | 5 | 35 |
-| Advanced | 10 | 15 | 15 | 40 |
-| **TOTAL** | **100** | **150** | **50** | **300** |
+| Command | Description |
+|---------|-------------|
+| `/complexity-analyzer` | Complexity Analyzer - Master Time & Space Complexity |
+| `/interview-prep` | 🚀 Interview Mastery - Ace Your Coding Interview |
+| `/difficulty-selector` | Difficulty Selector - Choose Your Challenge Level |
+| `/problem-solver` | 🎯 Problem Solver - Master DSA Through Practice |
 
 ---
 
-## 🚀 FAANG Interview Mastery
+## 📚 Documentation
 
-### Top 20 Most Asked Problems
-Compiled from thousands of real interviews:
-
-```
-🔴 MUST KNOW (Asked in 80%+ interviews):
-  1. Two Sum / Two Sum II
-  2. Best Time to Buy & Sell Stock
-  3. Merge Intervals
-  4. Number of Islands
-  5. LRU Cache
-
-🟠 VERY IMPORTANT (Asked in 50%+ interviews):
-  6. Longest Substring Without Repeating
-  7. Course Schedule (Cycle Detection)
-  8. Merge K Sorted Lists
-  9. Word Ladder
-  10. Coin Change
-
-🟡 IMPORTANT (Asked in 30%+ interviews):
-  11. Edit Distance
-  12. Word Break
-  13. Reverse Linked List
-  14. Kth Largest Element
-  15. Top K Frequent Elements
-
-🟢 COMMON (Asked in 20%+ interviews):
-  16. Search in Rotated Array
-  17. Next Permutation
-  18. Valid Parentheses
-  19. Median of Two Sorted Arrays
-  20. Trapping Rain Water
-```
-
-### Interview Success Checklist
-
-**Before Interview**
-- [ ] Review 5 relevant problems from your role
-- [ ] Whiteboard practice (no IDE)
-- [ ] Time yourself solving 3-5 problems
-- [ ] Know your complexity analysis cold
-
-**During Interview**
-- [ ] Clarify: constraints, examples, edge cases
-- [ ] Discuss: approach before coding
-- [ ] Test: walk through with example
-- [ ] Optimize: time/space trade-offs
-- [ ] Communicate: explain your thinking
-
-**After Interview**
-- [ ] Send thank you note within 24 hours
-- [ ] Reference specific problems discussed
-- [ ] Show enthusiasm for role/company
-- [ ] Ask thoughtful follow-up questions
+| Document | Description |
+|----------|-------------|
+| [CHANGELOG.md](CHANGELOG.md) | Version history |
+| [CONTRIBUTING.md](CONTRIBUTING.md) | How to contribute |
+| [LICENSE](LICENSE) | License information |
 
 ---
 
-## 📊 Complexity Analysis Guide
+## 📁 Project Structure
 
-### Big O Reference Card
-```
-Excellent:  O(1), O(log n)
-Good:       O(n), O(n log n)
-Acceptable: O(n²), O(n log² n)
-Poor:       O(2ⁿ), O(n!)
-```
-
-### Data Structure Comparison
-| Operation | Array | Linked List | Hash Table | BST | Heap |
-|-----------|-------|-------------|-----------|-----|------|
-| Access | O(1) | O(n) | - | O(log n) | O(n) |
-| Search | O(n) | O(n) | O(1) | O(log n) | O(n) |
-| Insert | O(n) | O(1)* | O(1) | O(log n) | O(log n) |
-| Delete | O(n) | O(1)* | O(1) | O(log n) | O(log n) |
-
-### Sorting Algorithm Complexity
-| Algorithm | Best | Avg | Worst | Space | Stable |
-|-----------|------|-----|-------|-------|--------|
-| Bubble | O(n) | O(n²) | O(n²) | O(1) | Yes |
-| Insertion | O(n) | O(n²) | O(n²) | O(1) | Yes |
-| Merge | O(n log n) | O(n log n) | O(n log n) | O(n) | Yes |
-| Quick | O(n log n) | O(n log n) | O(n²) | O(log n) | No |
-| Heap | O(n log n) | O(n log n) | O(n log n) | O(1) | No |
-| Counting | O(n+k) | O(n+k) | O(n+k) | O(k) | Yes |
-
----
-
-## 📋 4 Interactive Commands
-
-### 1️⃣ `/problem-solver` 🎯
-Browse and solve 300+ curated problems
-
-**Features**:
-- Filter by topic (arrays, trees, graphs, etc.)
-- Filter by difficulty (easy, medium, hard)
-- View complete solutions
-- See complexity analysis
-- Compare approaches
-
-**Example Usage**:
-```
-/problem-solver
-→ Select: Medium difficulty
-→ Select: Graphs topic
-→ See: 15 medium graph problems
-→ Solve: Number of Islands
-```
-
-### 2️⃣ `/difficulty-selector` 📊
-Personalized learning path based on your level
-
-**Features**:
-- Assess your current level
-- Get recommended problems
-- Daily practice schedule
-- Milestone tracking
-- Progress monitoring
-
-**Learning Paths**:
-- Beginner: 2 weeks, 50 problems
-- Intermediate: 4 weeks, 100 problems
-- Advanced: 6 weeks, 250 problems
-
-### 3️⃣ `/interview-prep` 🚀
-Master coding interviews with proven strategies
-
-**Features**:
-- Top 20 most asked problems
-- Interview day strategies
-- Communication tips
-- Time management guide
-- Mock interview schedule
-
-**Preparation Timeline**:
-- Week 1-2: Problem mastery
-- Week 3-4: Pattern recognition
-- Week 5-6: Mock interviews
-- Week 7-8: Weakness review
-
-### 4️⃣ `/complexity-analyzer` 📈
-Understand and optimize Big O complexity
-
-**Features**:
-- Big O notation reference
-- Data structure comparisons
-- Sorting complexity charts
-- How to calculate complexity
-- Optimization techniques
-
-**Tools**:
-- Complexity calculator
-- Trade-off analyzer
-- Algorithm comparator
-- Visual complexity guide
-
----
-
-## 🏆 Success Stories
-
-> "Went from struggling with arrays to passing Google interviews in 8 weeks using DSA Mastery. The structured approach and 300+ problems made all the difference."
-> — *Alex Chen, Google SDE*
-
-> "The interview prep section helped me land at Amazon with a 'strong hire' rating. Practicing the top 20 problems was exactly what I needed."
-> — *Maria Rodriguez, Amazon SDE*
-
-> "Best investment in my career. Systematic DSA practice led to 50% salary increase when switching companies."
-> — *James Wilson, Meta Engineer*
-
----
-
-## 📦 Plugin Architecture
+<details>
+<summary>Click to expand</summary>
 
 ```
 custom-plugin-data-structures-algorithms/
-├── .claude-plugin/
-│   └── plugin.json                    # Official manifest
-│
-├── agents/                            # 7 Expert agents
-│   ├── 01-arrays-lists.md
-│   ├── 02-trees-binary.md
-│   ├── 03-graphs.md
-│   ├── 04-dynamic-programming.md
-│   ├── 05-sorting-searching.md
-│   ├── 06-hash-tables.md
-│   └── 07-greedy-advanced.md
-│
-├── commands/                          # 4 Interactive commands
-│   ├── problem-solver.md
-│   ├── difficulty-selector.md
-│   ├── interview-prep.md
-│   └── complexity-analyzer.md
-│
-├── skills/                            # 11+ Production skills
-│   ├── arrays/
-│   │   ├── SKILL.md
-│   │   ├── sliding-window.md
-│   │   └── prefix-sum.md
-│   ├── trees/
-│   ├── graphs/
-│   ├── dp/
-│   ├── sorting/
-│   ├── hashing/
-│   ├── backtracking/
-│   └── bitmanip/
-│
-├── hooks/
-│   └── hooks.json
-│
-└── README.md
+├── 📁 .claude-plugin/
+│   ├── plugin.json
+│   └── marketplace.json
+├── 📁 agents/              # 7 agents
+├── 📁 skills/              # 8 skills (Golden Format)
+├── 📁 commands/            # 4 commands
+├── 📁 hooks/
+├── 📄 README.md
+├── 📄 CHANGELOG.md
+└── 📄 LICENSE
 ```
+
+</details>
 
 ---
 
-## 💡 Plugin Features
+## 📅 Metadata
 
-✅ **7 Expert Agents** - Each specialized in one DSA domain
-✅ **11+ Production Skills** - Code-ready, tested implementations
-✅ **4 Interactive Commands** - Solver, selector, interview, complexity
-✅ **300+ Curated Problems** - Real FAANG interview questions
-✅ **Complete Solutions** - Python, JavaScript, Java, C++
-✅ **Complexity Analysis** - Every solution explained
-✅ **Interview Mastery** - Top 20 + strategies + tips
-✅ **Progressive Learning** - Beginner → Intermediate → Advanced
-✅ **Production Ready** - Official Claude Code plugin format
+| Field | Value |
+|-------|-------|
+| **Version** | 1.0.0 |
+| **Last Updated** | 2025-12-29 |
+| **Status** | Production Ready |
+| **SASMP** | v1.3.0 |
+| **Agents** | 7 |
+| **Skills** | 8 |
+| **Commands** | 4 |
 
 ---
 
 ## 🤝 Contributing
 
-Help make DSA Mastery even better!
+Contributions are welcome! Please read our [Contributing Guide](CONTRIBUTING.md).
 
-**Ways to contribute**:
-- Submit new problem solutions
-- Suggest additional skills
-- Improve existing explanations
-- Share interview experiences
-- Report bugs or improvements
+1. Fork the repository
+2. Create your feature branch
+3. Follow the Golden Format for new skills
+4. Submit a pull request
 
 ---
 
-## 📄 License
+## ⚠️ Security
 
-MIT License - Free to use, modify, and distribute
+> **Important:** This repository contains third-party code and dependencies.
+>
+> - ✅ Always review code before using in production
+> - ✅ Check dependencies for known vulnerabilities
+> - ✅ Follow security best practices
+> - ✅ Report security issues privately via [Issues](../../issues)
 
 ---
 
-## 🙌 Inspiration & Credits
+## 📝 License
 
-Built with best practices from:
-- 💡 LeetCode's problem curation
-- 🎯 FAANG interview patterns
-- 📖 "Cracking the Coding Interview"
-- 🧠 GeeksforGeeks community
-- 👨‍💻 Successful interview experiences
+Copyright © 2025 **Dr. Umit Kacar** & **Muhsin Elcicek**
+
+Custom License - See [LICENSE](LICENSE) for details.
+
+---
+
+## 👥 Contributors
+
+<table>
+<tr>
+<td align="center">
+<strong>Dr. Umit Kacar</strong><br/>
+Senior AI Researcher & Engineer
+</td>
+<td align="center">
+<strong>Muhsin Elcicek</strong><br/>
+Senior Software Architect
+</td>
+</tr>
+</table>
 
 ---
 
 <div align="center">
 
-## 🎯 Ready to Master DSA?
+**Made with ❤️ for the Claude Code Community**
 
-### Start Your Journey
-
-1. **Pick Your Level**
-   ```
-   /difficulty-selector
-   ```
-
-2. **Solve Curated Problems**
-   ```
-   /problem-solver
-   ```
-
-3. **Understand Complexity**
-   ```
-   /complexity-analyzer
-   ```
-
-4. **Ace Your Interviews**
-   ```
-   /interview-prep
-   ```
-
----
-
-**"Every great software engineer is great because of their DSA fundamentals."**
-
-**Practice daily. Master DSA. Get hired. 💪**
-
----
-
-**Latest Update**: November 2025 | **Version**: 1.0.0 | **Status**: Production Ready ✅
+[![GitHub](https://img.shields.io/badge/GitHub-pluginagentmarketplace-black?style=for-the-badge&logo=github)](https://github.com/pluginagentmarketplace)
 
 </div>

@@ -1,0 +1,4 @@
+# Trees Configuration
+types: [binary, bst, avl, red_black, b_tree, trie, segment_tree]
+traversals: [inorder, preorder, postorder, level_order]
+operations: {search: "O(log n)", insert: "O(log n)", delete: "O(log n)"}

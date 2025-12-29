@@ -1,0 +1,3 @@
+# Graphs Configuration
+representations: [adjacency_list, adjacency_matrix, edge_list]
+algorithms: {traversal: [bfs, dfs], shortest_path: [dijkstra, bellman_ford, floyd_warshall], mst: [kruskal, prim]}

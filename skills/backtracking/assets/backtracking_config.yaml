@@ -1,0 +1,3 @@
+# Backtracking Configuration
+patterns: [permutations, combinations, subsets, n_queens, sudoku, word_search]
+template: {choose: true, explore: true, unchoose: true}

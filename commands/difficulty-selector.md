@@ -1,3 +1,9 @@
+---
+name: difficulty-selector
+description: Difficulty Selector - Choose Your Challenge Level
+allowed-tools: Read
+---
+
 # Difficulty Selector - Choose Your Challenge Level
 
 Select appropriate difficulty and topic combinations based on your experience level.

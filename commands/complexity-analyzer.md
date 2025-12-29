@@ -1,3 +1,9 @@
+---
+name: complexity-analyzer
+description: Complexity Analyzer - Master Time & Space Complexity
+allowed-tools: Read
+---
+
 # Complexity Analyzer - Master Time & Space Complexity
 
 Understand and analyze algorithmic complexity to optimize your solutions.

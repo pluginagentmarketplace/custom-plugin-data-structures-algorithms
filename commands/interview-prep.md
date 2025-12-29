@@ -1,3 +1,9 @@
+---
+name: interview-prep
+description: 🚀 Interview Mastery - Ace Your Coding Interview
+allowed-tools: Read
+---
+
 # 🚀 Interview Mastery - Ace Your Coding Interview
 
 **Complete Coding Interview Preparation** - Master the top 20 most frequently asked DSA problems, strategic approaches, communication tips, and proven interview techniques used by engineers at Google, Meta, Microsoft, and Amazon.

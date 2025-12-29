@@ -1,0 +1,4 @@
+# Hashing Configuration
+structures: [hash_set, hash_map]
+collision_handling: [chaining, open_addressing, linear_probing]
+operations: {insert: "O(1)", delete: "O(1)", lookup: "O(1)"}

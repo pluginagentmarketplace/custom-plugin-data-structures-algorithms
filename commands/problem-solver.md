@@ -1,3 +1,9 @@
+---
+name: problem-solver
+description: 🎯 Problem Solver - Master DSA Through Practice
+allowed-tools: Read
+---
+
 # 🎯 Problem Solver - Master DSA Through Practice
 
 **Interactive Problem Browser** - Find, solve, and master 300+ curated DSA problems with step-by-step solutions, complexity analysis, and interview preparation.

@@ -1,0 +1,3 @@
+# Bit Manipulation Configuration
+operations: [AND, OR, XOR, NOT, left_shift, right_shift]
+tricks: [check_bit, set_bit, clear_bit, toggle_bit, count_ones, power_of_two]

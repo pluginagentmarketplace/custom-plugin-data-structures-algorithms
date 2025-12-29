@@ -1,0 +1,4 @@
+# Arrays Configuration
+types: [static, dynamic, circular]
+operations: {access: "O(1)", search: "O(n)", insert: "O(n)", append: "O(1)"}
+techniques: [two_pointers, sliding_window, prefix_sum, kadane]
