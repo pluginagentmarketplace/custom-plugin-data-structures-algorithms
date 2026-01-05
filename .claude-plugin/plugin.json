@@ -47,6 +47,5 @@
     "./commands/difficulty-selector.md",
     "./commands/interview-prep.md",
     "./commands/complexity-analyzer.md"
-  ],
-  "hooks": "./hooks/hooks.json"
+  ]
 }

@@ -63,7 +63,7 @@
 
 ```bash
 # Step 1️⃣ Add the marketplace
-/plugin add marketplace pluginagentmarketplace/custom-plugin-data-structures-algorithms
+/plugin marketplace add pluginagentmarketplace/custom-plugin-data-structures-algorithms
 
 # Step 2️⃣ Install the plugin
 /plugin install data-structures-algorithms-assistant@pluginagentmarketplace-data-structures-algorithms
